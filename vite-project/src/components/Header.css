@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9f7aea;
+    padding: 0 1vw;
+    min-height: 29px;
+    min-width: 240px;
+    height: 8vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.link {
+    font-size: 1.5em;
+    color: #e9d8fd;
+    text-decoration: none;
+}
+
+.header button {
+    min-height: 15px;
+    border-radius: 10%;
+    width: 3rem;
+    height: 5vh;
+    color: #9f7aea;
+    background-color: #e9d8fd;
+    cursor: pointer;
+}

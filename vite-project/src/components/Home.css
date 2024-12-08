@@ -1,0 +1,13 @@
+.home-container{
+    overflow-y: scroll;
+    min-width: 240px;
+    width: 100vw;
+    height: 92vh;
+    background-color: #e9d8fd;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.home-container::-webkit-scrollbar {
+    display: none;
+}
